@@ -26,3 +26,5 @@ const Index = () => {
     </Container>
   );
 };
+
+export default Index;
