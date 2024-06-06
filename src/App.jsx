@@ -1,5 +1,5 @@
 import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
-import Home from "./pages/Home.jsx";
+import Index from "./pages/Index.jsx";
 import Login from "./pages/Login.jsx";
 import { useSupabaseAuth } from './integrations/supabase/auth.jsx';
 import { Button } from "@chakra-ui/react";
@@ -10,7 +10,7 @@ function App() {
   return (
     <Router>
       <Routes>
-        <Route exact path="/" element={<Home />} />
+        <Route exact path="/" element={<Index />} />
         <Route path="/login" element={<Login />} />
       </Routes>
       <div style={{ position: 'absolute', top: 10, right: 10 }}>
