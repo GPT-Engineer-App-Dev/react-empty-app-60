@@ -1,5 +1,3 @@
-import { Container, Text, VStack, Heading, Button } from "@chakra-ui/react";
-import { FaRocket } from "react-icons/fa";
 import { useSupabaseAuth } from '../integrations/supabase/auth.jsx';
 import { useNavigate } from 'react-router-dom';
 import { useEffect } from 'react';
@@ -26,5 +24,3 @@ const Index = () => {
     </Container>
   );
 };
-
-export default Index;
