@@ -1,6 +1,8 @@
 import { useSupabaseAuth } from '../integrations/supabase/auth.jsx';
 import { useNavigate } from 'react-router-dom';
 import { useEffect } from 'react';
+import { Container, VStack, Heading, Text, Button } from '@chakra-ui/react';
+import { FaRocket } from 'react-icons/fa';
 
 const Index = () => {
   const { session } = useSupabaseAuth();
